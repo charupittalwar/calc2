@@ -183,11 +183,12 @@ return prevvalue +operationvalue
  ]
 
 return (
-
+<div>
 <div className="maincal">
 <p>this is cal function {inputval1}</p>
 
-<p>{operationvalue} {currentoperation}</p>
+
+<p>{operationvalue} {currentoperation}</p> </div>
 
 <CalWrapper allbtarr ={allbtarr} operationarr = {operationarr}/>
 
