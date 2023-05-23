@@ -1,11 +1,16 @@
 .bt-name {
-    display: -webkit-flex;
-    display: flex;
-    margin-left: 40px;
-    margin-top: 10px;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
 
+    
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+   
+    margin-left: 40px;
+    
+    margin-top: 15px;
+    -webkit-flex-wrap: wrap;
+    
+    flex-wrap: wrap;
    
 
 
@@ -18,11 +23,11 @@ justify-content : space-around;
 
 .op-name {
 
-    display: -webkit-flex;
+    
     display: flex;
     margin-left: 40px;
     margin-top: 120px;
-    -webkit-flex-wrap: wrap;
+    
     flex-wrap: wrap;
 
 
